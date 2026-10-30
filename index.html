@@ -32,20 +32,26 @@
                
         <h3>Crear cuenta</h3>
 
+         <div class="contenedor-formulario">
+          <h2>Por favor ingrese su información personal</h2>
+         
+
         <form class="signup-form">
-            <P> Por favor ingrese su información personal</P>
+            <P> Atencion los campos en asterisco(*)son obligatorios</P>
 
              <!-- Campo Usuario -->
             <div class="input-group">
-                <label for="Nombres">Nombres</label>
+                <label><span style="color: red; font-weight: bold;">*</span> Nombres</label>
                 <div class="input-wrapper">
                     <input type="text" id="usuario" placeholder="Ingrese nombres" required>
+                
                 </div>
-            </div>    
+             </div>
+             
 
             <!-- Apellidos -->
             <div class="input-group">
-                <label for="Apellidos">Apellidos</label>
+                <label><span style="color: red; font-weight: bold;">*</span> Apellidos</label>
                 <div class="input-wrapper">
                     <input type="text" id="usuario" placeholder="Ingrese Apellidos" required>
                 </div>
@@ -53,7 +59,7 @@
             
             <!-- Cedula -->
             <div class="input-group">
-                <label for="Cedula">Cedula</label>
+                <label><span style="color: red; font-weight: bold;">*</span> Cedula</label>
                 <div class="input-wrapper">
                     <input type="text" id="usuario" placeholder="Ingrese cedula" required>
                 </div>
@@ -61,7 +67,7 @@
 
             <!-- Fecha de nacimiento -->
             <div class="input-group">
-                <label for="Nacimiento">Fecha de nacimiento</label>
+                <label><span style="color: red; font-weight: bold;">*</span> Fecha de nacimiento</label>
                 <div class="input-wrapper">
                     <input type="text" id="usuario" placeholder="Ingrese Fecha de nacimiento" required>
                 </div>
@@ -81,6 +87,8 @@
 
         <br><br>
           <button type="submit" style="padding: 10px 20px;">Continuar</button>
+
+        </div>
 
  
 
